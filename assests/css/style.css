@@ -1,0 +1,81 @@
+header{
+    background-image: url(https://images.pexels.com/photos/950241/pexels-photo-950241.jpeg?cs=srgb&dl=pexels-gdtography-950241.jpg&fm=jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 1rem 1rem 30rem;
+    
+}
+.row .col-6 a{
+    text-decoration: none;
+}
+
+.col-6 .logo a{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+
+}
+
+
+
+.col-9 nav a{
+    margin-right: 50px;
+    color: rgba(0, 0, 0, 0.582);
+}
+
+
+.col-3 .icons{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.col-3 .icons a{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+#text{
+    position: relative;
+}
+
+.content{
+    text-align: center;
+    position: absolute;
+    bottom: 10rem;
+    
+}
+
+#photos{
+    background-color: rgba(0, 0, 0, 0.144);
+    
+}
+
+.text-down p{
+    width: 70%;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0.274);
+    
+}
+
+
+
+/* .box-all .row .col-4{
+    border: 1px solid black ;
+   
+} */
+
+#photos .photo-text{
+    width: 100%;
+    box-shadow: 1px 0px 7px 5px #adb5bd;
+    background-color: #fff;
+    padding: 63px 52px 39px 40px;
+    position: relative;
+    margin: -70px 0px 20px;
+}
+
+#photos .photo-text .icon{
+    position: absolute;
+    top: -45px;
+    font-size: 60px;
+}
